@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@color/tan_background">
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:backgroundTint="#ff3300">
+    <TextView
+        android:id="@+id/main_numbers"
+        style="@style/FrontTextStyle"
+        android:text="Numbers"
+        android:layout_height="80dp"
+        android:gravity="center"
+        />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:backgroundTint="#009933">
+    <TextView
+        android:id="@+id/main_family_members"
+        style="@style/FrontTextStyle"
+        android:text="Family Members"
+        android:layout_height="80dp"
+        android:gravity="center"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:backgroundTint="#9900cc">
+    <TextView
+        android:id="@+id/main_colors"
+        style="@style/FrontTextStyle"
+        android:text="Colors"
+        android:layout_height="80dp"
+        android:gravity="center"
+        />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:backgroundTint="#66ccff">
+    <TextView
+        android:id="@+id/main_phrases"
+        style="@style/FrontTextStyle"
+        android:text="Phrases"
+        android:layout_height="80dp"
+        android:gravity="center"
+        />
+    </LinearLayout>
+
+</LinearLayout>
